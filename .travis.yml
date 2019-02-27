@@ -12,6 +12,9 @@ python:
 
 # Install required packages
 addons:
+  postgresql: '9.6'
+  services:
+      - postgresql
   apt:
     sources:
       - sourceline: ppa:nextgis/ppa
@@ -21,6 +24,7 @@ addons:
       - libgdal-dev
       - libgdal20
       - libudunits2-0
+      - postgresql-9.6-postgis-2.3
 
 before_install:
   # Set paths for building python-gdal
