@@ -25,7 +25,7 @@ addons:
       - libgdal-dev
       - libgdal20
       - libudunits2-0
-      - postgresql-10-postgis-2.5
+      - postgresql-10-postgis-2.4
 
 before_install:
   # Set paths for building python-gdal
