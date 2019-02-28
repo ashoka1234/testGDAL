@@ -12,7 +12,7 @@ python:
 
 # Install required packages
 addons:
-  postgresql: '9.6'
+  postgresql: '10'
   services:
       - postgresql
   apt:
@@ -24,7 +24,7 @@ addons:
       - libgdal-dev
       - libgdal20
       - libudunits2-0
-      - postgresql-9.6-postgis-2.5
+      - postgresql-10-postgis-2.5
 
 before_install:
   # Set paths for building python-gdal
