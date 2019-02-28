@@ -18,6 +18,7 @@ addons:
   apt:
     sources:
       - sourceline: ppa:nextgis/ppa
+      - sourceline: ppa:ubuntugis-unstable/ppa
     packages:
       - gdal-bin
       - gdal-data
